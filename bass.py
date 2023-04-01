@@ -9,7 +9,7 @@ class Loops:
             'bass': 'bass.wav',
             'back-beat': 'back-beat.wav',
             'echo-synth': 'echo-synth.wav',
-            'high-hat': 'high-hat.wav',
+            'high-hat': 'bathhack23/high-hat.wav',
             'paddington-bass': 'paddington-bass.wav',
             'synth-chord': 'synth-chord.wav'
         }

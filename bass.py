@@ -1,17 +1,17 @@
 import threading
 import wave
 import pyaudio
-import simpleaudio as sa
+# import simpleaudio as sa
 
 class Loops:
     def __init__(self):
         self.FILENAMES = {
-            'bass': 'bass.wav',
-            'back-beat': 'back-beat.wav',
-            'echo-synth': 'echo-synth.wav',
+            'bass': 'bathhack23/bass.wav',
+            'back-beat': 'bathhack23/back-beat.wav',
+            'echo-synth': 'bathhack23/echo-synth.wav',
             'high-hat': 'bathhack23/high-hat.wav',
-            'paddington-bass': 'paddington-bass.wav',
-            'synth-chord': 'synth-chord.wav'
+            'paddington-bass': 'bathhack23/paddington-bass.wav',
+            'synth-chord': 'bathhack23/synth-chord.wav'
         }
 
         self.wf1 = wave.open(self.FILENAMES['bass'], 'rb')
@@ -138,12 +138,12 @@ class Loops:
 class PlayWav:
     def __init__(self):
         self.FILENAMES = {
-            'bass': 'bass.wav',
-            'back-beat': 'back-beat.wav',
-            'echo-synth': 'echo-synth.wav',
-            'high-hat': 'high-hat.wav',
-            'paddington-bass': 'paddington-bass.wav',
-            'synth-chord': 'synth-chord.wav'
+            'bass': 'bathhack23/bass.wav',
+            'back-beat': 'bathhack23/back-beat.wav',
+            'echo-synth': 'bathhack23/echo-synth.wav',
+            'high-hat': 'bathhack23/high-hat.wav',
+            'paddington-bass': 'bathhack23/paddington-bass.wav',
+            'synth-chord': 'bathhack23/synth-chord.wav'
         }
         self.threads = []
 
